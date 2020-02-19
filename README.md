@@ -41,3 +41,9 @@ import (
 ```
  
 `main.go`: quick and dirty script for generating JSON files from EAD files using zek
+
+NOTE: This repo used to have a directory findingaids_eads-f27a2abc38fbcb39e38e51c2d15eb9c0187832d3
+which was a snapshot of the the commit used for XML source.  I hadn't realized at
+the time that this directory was 577 MB.  The convenience of having a local snapshot
+isn't worth the bloat, so I rebuilt this repo without it.  Links in Jira to commits
+in the previous version of this repo will 404.
