@@ -7,6 +7,8 @@ go get github.com/miku/zek/cmd/...
 find ead-files/ -type f -name *.xml -exec cat {} \; | zek > zek-types.go
 ```
 
+Some user and host identifying information was removed from the generation comment.
+
 How `ead-files/` was made:
  
 ```bash
